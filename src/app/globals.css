@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background: white;
+}
+
+/* navbar parts */
+@media (max-width: 767px){
+
+  .navbar-toggler{
+    margin-bottom: 6px;
+  }
+
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+  .navbar-brand img {
+    vertical-align: baseline !important; 
+    width: 30;
+  }
+
+  .mintu{
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.mintu{
+  font-family: "Blinker", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.nav-link:hover{
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.navbar-nav .nav-link.active{
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.site-navbar{
+  position: sticky;
+  top: 5;
+  z-index: 1030;
+  background-color: white;
+}
+
+.awesome{
+  border: 1px solid rgb(18, 18, 18, 0.1);
+}
+
+.logo1{
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 4px 8px;
+  color: white;
+  background: black;
+  line-height: 0.8;
+  border-radius: 2px;
+}
+
+.me-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card{
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+  background-color: white;
+}
+
+.about1 img{
+  object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.about1{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+@media (max-width: 767px){
+  .about1{
+    height: 210px;
+  }
+}
+
+.m1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #252321;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.me-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 15%;
+}
+
+.logos1{
+  padding-left: 8.8%;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 767px) {
+    .me-logos {
+        justify-content: center;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .logos3{
+      padding-left: 0;
+      padding-right: 4%;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .copyright{
+      padding-right: 10%;
+    }
+}
+
+.logos2{
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  padding-left: 8.8%;
+}
+
+.logos3{
+  font-size: 0.8rem;
+  padding-left: 8.8%;
+}
+
+.copyright{
+  font-size: 0.9rem;
+  padding-left: 8.8%;
+}
